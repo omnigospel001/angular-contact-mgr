@@ -1,1 +1,19 @@
 /* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@1,300&display=swap');
+@import 'https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css';
+@import 'https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css';
+
+body{
+    font-family: 'Rubik', sans-serif;
+    background-color: #e8ddda !important;
+}
+
+.contact-image{
+    width: 150px;
+    border-radius: 50%;
+}
+
+.contact-image-big{
+    width: 200spx;
+    border-radius: 50%;
+}

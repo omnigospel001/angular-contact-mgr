@@ -1,0 +1,52 @@
+<div class="container mt-3">
+    <div class="row">
+        <div class="col">
+             <p class="h3 fa-bold text-danger">View Contact</p>
+            <p class="fst-italic">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti alias voluptatibus, veritatis veniam quibusdam cupiditate nostrum eaque recusandae aperiam optio vel libero sunt nam porro. Suscipit unde maiores cum sit!</p>
+            </div>
+    </div>
+</div>
+
+<!-- Loading State -->
+<div *ngIf="loading">
+    <app-spinner></app-spinner>
+</div>
+
+<!-- Error Message -->
+<div *ngIf="!loading && errorMessage">
+<div class="container">
+    <div class="row">
+        <div class="col">
+            <p class="h4 text-danger font-bold">{{errorMessage}}</p>
+        </div>
+    </div>
+</div>
+</div>
+
+
+<!-- Contact Details -->
+<div class="container" *ngIf="!loading && isNotEmpty()">
+    <div class="row align-items-center">
+        <div class="col-sm-4">
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQOi7SeW_B1tZF-k3pRDdKmXDU49SrrapjQIA&usqp=CAU" alt="" class="contact-image-big" alt="">
+        </div>
+        <div class="col-sm-6" >
+          <ul class="list-group">
+              <li class="list-group-item list-group-item-danger">Name: <strong class="fa-bold">{{contact.name}}</strong></li>
+              <li class="list-group-item list-group-item-danger">Email: <strong class="fa-bold">{{contact.email}}</strong></li>
+              <li class="list-group-item list-group-item-danger">Mobile: <strong class="fa-bold">{{contact.mobile}}</strong></li>
+              <li class="list-group-item list-group-item-danger">Title: <strong class="fa-bold">{{contact.title}}</strong></li>
+              <li class="list-group-item list-group-item-danger">Company: <strong class="fa-bold">{{contact.company}}</strong></li>
+              <li class="list-group-item list-group-item-danger">Group Name: <strong class="fa-bold">{{group.name}}</strong></li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="row mt-3">
+        <div class="col">
+            <a routerLink="/" class="btn btn-danger">
+                <i class="fa fa-arrow-circle-left"></i>
+            Close</a>
+        </div>
+    </div>
+</div>

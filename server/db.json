@@ -1,0 +1,64 @@
+{
+  "contacts": [
+    {
+      "id": "B001",
+      "name": "Grace Francis",
+      "email": "G@gmail.com",
+      "photo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQOi7SeW_B1tZF-k3pRDdKmXDU49SrrapjQIA&usqp=CAU ",
+      "mobile": "09876535548",
+      "company": "Doxa",
+      "title": "Dr",
+      "groupId": "1"
+    },
+    {
+      "id": "B002",
+      "name": "Joy Dalla",
+      "email": "J@gmail.com",
+      "photo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQOi7SeW_B1tZF-k3pRDdKmXDU49SrrapjQIA&usqp=CAU ",
+      "mobile": "09876535548",
+      "company": "Pan Afrkx",
+      "title": "Mrs",
+      "groupId": "2"
+    },
+    {
+      "name": "Gospel Udechukwu",
+      "email": "gosmajesty@gmail.com",
+      "company": "Self Employed",
+      "photo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQOi7SeW_B1tZF-k3pRDdKmXDU49SrrapjQIA&usqp=CAU ",
+      "title": "Engineer ",
+      "mobile": 444444444,
+      "id": "Ne6No-k"
+    },
+    {
+      "name": "Gospel Udechukwu",
+      "email": "gosmajesty@gmail.com",
+      "company": "Self Employed",
+      "photo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQOi7SeW_B1tZF-k3pRDdKmXDU49SrrapjQIA&usqp=CAU ",
+      "mobile": 555555,
+      "title": "Engineer ",
+      "id": "Yshe4Q6"
+    }
+  ],
+  "groups": [
+    {
+      "id": "1",
+      "name": "Colleague"
+    },
+    {
+      "id": "2",
+      "name": "Friend"
+    },
+    {
+      "id": "3",
+      "name": "Bestie"
+    },
+    {
+      "id": "4",
+      "name": "Sibling"
+    },
+    {
+      "id": "5",
+      "name": "Service"
+    }
+  ]
+}
